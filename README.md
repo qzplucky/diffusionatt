@@ -1,13 +1,5 @@
-# DiffusionRig
+# Diffusionatt
 
-**DiffusionRig: Learning Personalized Priors for Facial Appearance Editing**<br>
-[Zheng Ding](), [Xuaner Zhang](https://ceciliavision.github.io),
-[Zhihao Xia](https://likesum.github.io), [Lars Jebe](https://lcjebe.github.io),
-[Zhuowen Tu](https://pages.ucsd.edu/~ztu), [Xiuming Zhang](https://xiuming.info)
-<br>CVPR 2023<br>
-[arXiv](https://arxiv.org/pdf/2304.06711.pdf) / [Project Page](https://diffusionrig.github.io) / [Video](https://www.youtube.com/watch?v=6ZQbiNiJJEE) / [BibTex](bib.txt)
-
-![teaser](figs/teaser.webp)
 
 ## Setup & Preparation
 
@@ -126,4 +118,4 @@ For questions, please also consider opening an issue as it may benefit future re
 
 ## Acknowledgements
 
-This codebase was built upon and drew inspirations from [Guided-Diffusion](https://github.com/openai/guided-diffusion), [DECA](https://github.com/yfeng95/DECA) and [Diff-AE](https://github.com/phizaz/diffae). We thank the authors for making those repositories public.
+This codebase was built upon and drew inspirations from [diffusion-rig](https://github.com/adobe-research/diffusion-rig.git), [Guided-Diffusion](https://github.com/openai/guided-diffusion), [DECA](https://github.com/yfeng95/DECA) and [Diff-AE](https://github.com/phizaz/diffae). We thank the authors for making those repositories public.
