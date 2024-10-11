@@ -79,7 +79,6 @@ mpiexec -n 8 python scripts/train.py --latent_dim 64 --encoder_type resnet18 \
 
 To keep the model training indefinitely, set `--max_steps 0`. If you want to resume a training process, simply add `--resume_checkpoint PATH_TO_THE_MODEL`.
 
-:white_check_mark: We also provide the Stage 1 model trained by us [here](https://drive.google.com/file/d/1lnFLNGguvQ150unuOXJqbXiVQtJz0jli/view?usp=sharing) so that you can fast-forward to training your personalized model.
 
 ### Stage 2: Learning Personalized Priors
 
@@ -95,8 +94,6 @@ mpiexec -n 1 python scripts/train.py --latent_dim 64 --encoder_type resnet18 \
 
 It takes around 30 minutes on a single Nvidia V100 GPU.
 
-*(New as of 10/13/2023)*: We released some of the stage 2 training datasets we used in our paper for research purposes only. Please download them through the [Google Drive Link](https://drive.google.com/drive/folders/1h0xam4R8BgW95kjaxETQnrQ6TB5ucKr7?usp=sharing).
-
 ## Inference
 
 We provide a script to edit face appearance by modifying the physical buffers. Run:
@@ -107,13 +104,6 @@ python scripts/inference.py --source SOURCE_IMAGE_FILE --target TARGET_IMAGE_FIL
 
 to use the physical parameters (e.g., lighting, expression, or head pose) of the target image to edit the source image.
 
-
-## Issues or Questions?
-
-If the issue is code-related, please open an issue here.
-
-For questions, please also consider opening an issue as it may benefit future reader. Otherwise, email Zheng Ding at 
-[zhding@ucsd.edu](mailto:zhding@ucsd.edu).
 
 
 ## Acknowledgements
