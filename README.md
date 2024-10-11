@@ -104,7 +104,7 @@ python scripts/inference.py --source SOURCE_IMAGE_FILE --target TARGET_IMAGE_FIL
 
 to use the physical parameters (e.g., lighting, expression, or head pose) of the target image to edit the source image.
 
-our Some of our results are is available at [https://drive.google.com/drive/folders/1_d2vMVxPBR73NHioZe1NLerYJWnYsPX0?usp=drive_link](https://drive.google.com/drive/folders/1_d2vMVxPBR73NHioZe1NLerYJWnYsPX0?usp=drive_link).
+Some of our results are is available at [https://drive.google.com/drive/folders/1_d2vMVxPBR73NHioZe1NLerYJWnYsPX0?usp=drive_link](https://drive.google.com/drive/folders/1_d2vMVxPBR73NHioZe1NLerYJWnYsPX0?usp=drive_link).
 
 ## Acknowledgements
 
